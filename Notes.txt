@@ -1,0 +1,27 @@
+The DOM is what permit Javascript to interact with the browser.
+
+The DOM is a tree base structure build from every HTML pages.
+It containt diferent nodes, everything is a nodes.
+
+We can use the DOM to add, modify or remove element of the DOM. Add event change style...
+
+Node is a object
+all node have mehods like .textContent
+Type of nodes
+EventTarget
+--Windows
+--Node 
+	-- Element (.innerHTLM, .classList, ...)
+		<p>...</p>
+		--HTMLElement
+			--HTMLButtonElement
+			--HTMLDivElement
+			--(One type of element per Elements
+	-- Text
+		<p>paragraph text.</p>
+	-- Comment 
+		<!-- Comments -->
+	-- Document
+		.querySelecto(), .createElement(), ...
+
+All type inherit all there parent type
